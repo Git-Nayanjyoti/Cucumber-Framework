@@ -1,0 +1,72 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-09-30T09:07:51.742Z",
+        "line": 3,
+        "name": "Test Login Functionality with Valid credentials",
+        "description": "",
+        "id": "orangehrm-application;test-login-functionality-with-valid-credentials",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6926928000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is on Login Page",
+            "match": {
+              "location": "StepDefinition.Login.user_is_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 134246000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User enters username",
+            "match": {
+              "location": "StepDefinition.Login.user_enters_username()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 62852000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user enters password",
+            "match": {
+              "location": "StepDefinition.Login.user_enters_password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4567655000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user clicks on Login Button",
+            "match": {
+              "location": "StepDefinition.Login.user_clicks_on_login_button()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "OrangeHRM Application",
+    "description": "",
+    "id": "orangehrm-application",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/Features/Login.feature",
+    "tags": []
+  }
+]
