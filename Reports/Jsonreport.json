@@ -3,20 +3,20 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2021-09-30T09:07:51.742Z",
-        "line": 3,
-        "name": "Test Login Functionality with Valid credentials",
+        "start_timestamp": "2021-09-30T17:15:12.564Z",
+        "line": 28,
+        "name": "Login feature using scenario outline",
         "description": "",
-        "id": "orangehrm-application;test-login-functionality-with-valid-credentials",
+        "id": "orangehrm-application;login-feature-using-scenario-outline;;2",
         "type": "scenario",
-        "keyword": "Scenario",
+        "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "duration": 6926928000,
+              "duration": 5550063000,
               "status": "passed"
             },
-            "line": 4,
+            "line": 22,
             "name": "User is on Login Page",
             "match": {
               "location": "StepDefinition.Login.user_is_on_login_page()"
@@ -25,39 +25,202 @@
           },
           {
             "result": {
-              "duration": 134246000,
+              "duration": 176527000,
               "status": "passed"
             },
-            "line": 5,
-            "name": "User enters username",
+            "line": 23,
+            "name": "User enters Admin and admin123",
             "match": {
-              "location": "StepDefinition.Login.user_enters_username()"
+              "arguments": [
+                {
+                  "val": "Admin",
+                  "offset": 12
+                },
+                {
+                  "val": "admin123",
+                  "offset": 22
+                }
+              ],
+              "location": "StepDefinition.Login.user_enters_and(java.lang.String,java.lang.String)"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 62852000,
+              "duration": 4278100000,
               "status": "passed"
             },
-            "line": 6,
-            "name": "user enters password",
+            "line": 24,
+            "name": "user clicks on Login Button",
             "match": {
-              "location": "StepDefinition.Login.user_enters_password()"
+              "location": "StepDefinition.Login.user_clicks_on_login_button()"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 4567655000,
+              "duration": 151711000,
               "status": "passed"
             },
-            "line": 7,
+            "line": 25,
+            "name": "User should be able to login successfully",
+            "match": {
+              "location": "StepDefinition.Login.user_should_be_able_to_login_successfully()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Test3"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-09-30T17:15:22.811Z",
+        "line": 29,
+        "name": "Login feature using scenario outline",
+        "description": "",
+        "id": "orangehrm-application;login-feature-using-scenario-outline;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5060865000,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "User is on Login Page",
+            "match": {
+              "location": "StepDefinition.Login.user_is_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 173292000,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "User enters test and test123",
+            "match": {
+              "arguments": [
+                {
+                  "val": "test",
+                  "offset": 12
+                },
+                {
+                  "val": "test123",
+                  "offset": 21
+                }
+              ],
+              "location": "StepDefinition.Login.user_enters_and(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 704438000,
+              "status": "passed"
+            },
+            "line": 24,
             "name": "user clicks on Login Button",
             "match": {
               "location": "StepDefinition.Login.user_clicks_on_login_button()"
             },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 135986000,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "User should be able to login successfully",
+            "match": {
+              "location": "StepDefinition.Login.user_should_be_able_to_login_successfully()"
+            },
             "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Test3"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-09-30T17:15:28.892Z",
+        "line": 30,
+        "name": "Login feature using scenario outline",
+        "description": "",
+        "id": "orangehrm-application;login-feature-using-scenario-outline;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5073025000,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "User is on Login Page",
+            "match": {
+              "location": "StepDefinition.Login.user_is_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 159019000,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "User enters abc and abc123",
+            "match": {
+              "arguments": [
+                {
+                  "val": "abc",
+                  "offset": 12
+                },
+                {
+                  "val": "abc123",
+                  "offset": 20
+                }
+              ],
+              "location": "StepDefinition.Login.user_enters_and(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 720278000,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "user clicks on Login Button",
+            "match": {
+              "location": "StepDefinition.Login.user_clicks_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 133488000,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "User should be able to login successfully",
+            "match": {
+              "location": "StepDefinition.Login.user_should_be_able_to_login_successfully()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Test3"
           }
         ]
       }
